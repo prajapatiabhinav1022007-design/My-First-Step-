@@ -26,4 +26,6 @@ int main () {
     }
     vector<int>dp(n,-1);
     int ans=run(n-1,ener,dp);
-}
+    cout<<ans<<endl;
+    return 0;
+} 
